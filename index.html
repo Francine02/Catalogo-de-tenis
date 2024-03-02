@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tênis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="./icone.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="background-img">
+            <img src="./img/black.png" id="img">
+        </div>
+
+        <div id="info">
+            <h1>TÊNIS BOTINHA</h1>
+            <P>R$ 300,00</P>
+            <P style="color: rgba(18, 149, 18, 0.803);">Em até 12x de R$ 25,00</P>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, velit sapiente sunt vel odio autem. Fugit, necessitatibus repudiandae! Pariatur, error. Atque quas ad pariatur recusandae veniam ratione fugiat. Facilis, quae.</p>
+        </div>
+
+        <div id="info-colors">
+            <h2>Cores:</h2>
+            <label for="black">
+                <input type="radio" name="op-color" id="black" checked>
+                <img src="./img/black-color.png" alt="black-color">
+            </label>
+
+            <label for="red">
+                <input type="radio" name="op-color" id="red">
+                <img src="./img/red-color.png" alt="red-color">
+            </label>
+
+            <label for="pink">
+                <input type="radio" name="op-color" id="pink">
+                <img src="./img/pink-color.png" alt="pink-color">
+            </label>
+        </div>
+
+        <div id="size">
+            <h2>Tamanhos:</h2>
+            <input type="checkbox" name="size"><label for="size">34</label>
+            <input type="checkbox" name="size"><label for="size">35</label>
+            <input type="checkbox" name="size"><label for="size">36</label>
+            <input type="checkbox" name="size"><label for="size">37</label>
+            <input type="checkbox" name="size"><label for="size">38</label>
+            <input type="checkbox" name="size"><label for="size">39</label>
+        </div>
+
+        <button id="buy">COMPRAR</button>
+    </div>
+
+    <script src="./script.js" defer></script>
+</body>
+</html>
